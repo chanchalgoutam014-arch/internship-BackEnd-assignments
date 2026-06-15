@@ -42,5 +42,14 @@ while($value > 0){
 echo("<br>");
 
 
+//task 5 : Array + While Loop
+$colors = ["Red", "Blue", "Green", "Yellow", "Black"];
 
+$arr = count($colors);
+$i = 0;
+echo("colors in array are :<br>");
+while($i < $arr){
+    echo("$colors[$i]<br>");
+    $i++;
+}
 ?>
