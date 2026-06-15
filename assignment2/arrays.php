@@ -31,4 +31,16 @@ for($num=0; $num<=20; $num++){
 }
 echo("<br>");
 
+
+//task 4 : While Loop
+$value = 10;
+echo("Reverse numbers :<br>");
+while($value > 0){
+    echo("$value<br>");
+    $value--;
+}
+echo("<br>");
+
+
+
 ?>
