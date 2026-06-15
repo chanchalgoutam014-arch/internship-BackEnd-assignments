@@ -17,9 +17,9 @@ $info = [
     "City"=>"jalandhar"
 ];
 
-echo("Value of the keys are :<br> ");
+echo("Keys and their vakues are :<br>");
 foreach($info as $key=>$data){
-    echo("$info[$key]<br>");
+    echo("$key: $data<br>");
 }
 echo("<br>");
 
