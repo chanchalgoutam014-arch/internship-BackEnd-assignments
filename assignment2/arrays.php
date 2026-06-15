@@ -24,4 +24,11 @@ foreach($info as $key=>$data){
 echo("<br>");
 
 
+//task 3 : For Loop
+echo("Numbers from 1 - 20 :<br>");
+for($num=0; $num<=20; $num++){
+    echo("$num<br>");
+}
+echo("<br>");
+
 ?>
