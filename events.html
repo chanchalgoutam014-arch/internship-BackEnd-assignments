@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- task 1 -->
+    <button onmousedown="press()">Button</button><br />
+
+    <!-- task 2 -->
+    <button onclick="popup()">click Me</button><br />
+
+    <!-- task 5 -->
+    <input type="text" id="name" />
+    <button onclick="check()">Submit</button>
+  </body>
+  <script>
+    // task 1
+    function press() {
+      console.log("Mouse Down");
+    }
+
+    // task 2
+    function popup() {
+      alert("Welcome to JavaScript");
+    }
+
+    // task 3
+    let password = "Abcd7230";
+    let pattern1 = /^(?=.*[0-9]).{8,}$/;
+
+    if (pattern1.test(password)) {
+      console.log("Valid Password");
+    } else {
+      console.log("Invalid Password");
+    }
+
+    // task 4
+    let username = "student01";
+    let pattern2 = /^[A-Za-z0-9]{3,}$/;
+
+    if (pattern2.test(username)) {
+      console.log("Valid Username");
+    } else {
+      console.log("Invalid Username");
+    }
+
+    // task 5
+    function check() {
+      let name = document.getElementById("name").value;
+
+      if (name == "") {
+        console.log("Name is required");
+      } else {
+        console.log("Form Submitted");
+      }
+    }
+  </script>
+</html>
